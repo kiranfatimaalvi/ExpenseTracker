@@ -1,23 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Expense from './Expense';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App h-auto w-full bg-gradient-to-tr from-[#100850] via-blue-200 to-[#244F60] min-h-screen ">
+      <Expense />
     </div>
   );
 }

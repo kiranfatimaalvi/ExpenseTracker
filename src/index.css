@@ -1,13 +1,31 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.expenseTracker {
+  height: auto;
+  margin-top: 6vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.income,
+.expenseTracker,
+.expense {
+  border-radius: 5px;
+  box-sizing: border-box;
 }
+
+.income,
+.expense {
+  margin-top: 15.5vh;
+  height: 68.8vh;
+  box-sizing: border-box;
+}
+
+.number::placeholder{
+  color: red;
+}
+
+.hover-btn:hover{
+  /* color: #0b55b6; */
+  /* box-shadow: rgba(0, 0, 0, 0.45) 0px 75px 20px -20px; */
+}
+
+/* git init add . commit am "345678"
+copy
+git push origin master */
